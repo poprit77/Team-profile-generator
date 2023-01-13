@@ -1,0 +1,32 @@
+{
+  "name": "inquirer",
+  "version": "8.2.4",
+  "description": "inquirer",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poprit77/Team-profile-generator.git"
+  },
+  "keywords": [
+    "team",
+    "generator"
+  ],
+  "author": "petet",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/poprit77/Team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/poprit77/Team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
