@@ -108,7 +108,7 @@ function createEngineer() {
       },
       {
         type: "input",
-        name: "GHUser",
+        name: "github",
         message: "What is the employee's github username?:",
       },
     ])
@@ -117,7 +117,7 @@ function createEngineer() {
         answer.name,
         answer.id,
         answer.email,
-        answer.GHUser
+        answer.github
       );
       teamMemebers.push(engineer);
       main();

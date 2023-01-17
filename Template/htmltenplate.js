@@ -59,11 +59,11 @@ const generateHTML = function (draft) {
 const generateCard = function (arr) {
     //if else statement
     let roleInfo;
-
+console.log(arr.github);
     if (arr.title === "Manager") {
         roleInfo = `Office Number: ${arr.officeNumber}`
     } else if (arr.title === "Engineer") {
-        roleInfo = `${arr.github}`
+        roleInfo = `<a href="https://github.com/${arr.github}">${arr.github}</a>`
     } else if (arr.title === "Intern") {
         roleInfo = `School: ${arr.school}`
     }
@@ -78,7 +78,7 @@ const generateCard = function (arr) {
 <ul>
     <li>ID: ${arr.id}</li>
     <li><a href="mailto:${arr.email}" target="_blank" rel="noopener noreferrer">${arr.email}</a></li>
-    <li><a href="https://github.com/${roleInfo}">${roleInfo}</a></li>
+    <li>${roleInfo}</li>
 </ul>
 </div>
 </div>`
